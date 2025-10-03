@@ -1,0 +1,3 @@
+### Calculator
+
+set $calculator /usr/bin/qalculate-gtk

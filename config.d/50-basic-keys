@@ -28,3 +28,6 @@ bindsym $mod+Shift+l exec $power_menu
 
 # Open file explorer
 bindsym $mod+Shift+f exec $file_explorer
+
+# Open calculator
+bindsym $mod+Shift+z exec $calculator

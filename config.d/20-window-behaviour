@@ -50,6 +50,7 @@ for_window [class=zoom] floating enable
 for_window [app_id=veracrypt] floating enable
 for_window [app_id=ch.proton.bridge-gui] floating enable
 for_window [app_id=thunar] floating enable
+for_window [app_id=qalculate-gtk] floating enable
 
 ## Window focus
 for_window [class=".*"] focus
