@@ -1,19 +1,19 @@
-## Base16 Tokyonight Night
+## Base16 painted
 # Author: dark-beep-boop
 
-set $base00 #0c0e14
-set $base01 #121218
-set $base02 #16161e
-set $base03 #1f1f29
-set $base04 #1a232c
-set $base05 #1a9c84
-set $base06 #73daca
-set $base07 #ffffff
-set $base08 #ff007c
-set $base09 #faba4a
-set $base0A #f7768e
-set $base0B #9fe044
-set $base0C #0db9d7
-set $base0D #1099b4
-set $base0E #bb9af7
-set $base0F #914c54
+set $base00 #011837
+set $base01 #022c64
+set $base02 #033e8c
+set $base03 #0450b4
+set $base04 #378cfb
+set $base05 #4b97fb
+set $base06 #5fa3fc
+set $base07 #9bc5fd
+set $base08 #ff1f1f
+set $base09 #fd3d25
+set $base0A #fa5c2b
+set $base0B #f87a31
+set $base0C #f59937
+set $base0D #f3b73d
+set $base0E #e28fbb
+set $base0F #e28fbb
