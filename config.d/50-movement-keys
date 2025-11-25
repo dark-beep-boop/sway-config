@@ -11,7 +11,7 @@ bindsym $mod+Down focus down
 bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
-# Move the focused window with the same, but add Shift
+# Move the focused window
 bindsym $mod+Alt+$left move left
 bindsym $mod+Alt+$down move down
 bindsym $mod+Alt+$up move up
@@ -21,11 +21,65 @@ bindsym $mod+Alt+Left move left
 bindsym $mod+Alt+Down move down
 bindsym $mod+Alt+Up move up
 bindsym $mod+Alt+Right move right
+# With gestures
+bindgesture pinch:inward+left move left
+bindgesture pinch:inward+down move down
+bindgesture pinch:inward+up move up
+bindgesture pinch:inward+right move right
+
+# Switch to workspace
+bindsym $mod+1 workspace number 1
+bindsym $mod+2 workspace number 2
+bindsym $mod+3 workspace number 3
+bindsym $mod+4 workspace number 4
+bindsym $mod+5 workspace number 5
+bindsym $mod+6 workspace number 6
+bindsym $mod+7 workspace number 7
+bindsym $mod+8 workspace number 8
+bindsym $mod+9 workspace number 9
+bindsym $mod+0 workspace number 10
+
+# Move focused container to workspace
+bindsym $mod+Alt+1 move container to workspace number 1
+bindsym $mod+Alt+2 move container to workspace number 2
+bindsym $mod+Alt+3 move container to workspace number 3
+bindsym $mod+Alt+4 move container to workspace number 4
+bindsym $mod+Alt+5 move container to workspace number 5
+bindsym $mod+Alt+6 move container to workspace number 6
+bindsym $mod+Alt+7 move container to workspace number 7
+bindsym $mod+Alt+8 move container to workspace number 8
+bindsym $mod+Alt+9 move container to workspace number 9
+bindsym $mod+Alt+0 move container to workspace number 10
+
+# Move focused container to workspace and switch to workspace
+bindsym $mod+Shift+Alt+1 move container to workspace number 1; workspace number 1
+bindsym $mod+Shift+Alt+2 move container to workspace number 2; workspace number 2
+bindsym $mod+Shift+Alt+3 move container to workspace number 3; workspace number 3
+bindsym $mod+Shift+Alt+4 move container to workspace number 4; workspace number 4
+bindsym $mod+Shift+Alt+5 move container to workspace number 5; workspace number 5
+bindsym $mod+Shift+Alt+6 move container to workspace number 6; workspace number 6
+bindsym $mod+Shift+Alt+7 move container to workspace number 7; workspace number 7
+bindsym $mod+Shift+Alt+8 move container to workspace number 8; workspace number 8
+bindsym $mod+Shift+Alt+9 move container to workspace number 9; workspace number 9
+bindsym $mod+Shift+Alt+0 move container to workspace number 10; workspace number 10
+
+# Move focused workspace to output
+bindsym $mod+Shift+Alt+$left move workspace to left
+bindsym $mod+Shift+Alt+$right move workspace to right
+bindsym $mod+Shift+Alt+$up move workspace to up
+bindsym $mod+Shift+Alt+$down move workspace to down
+bindsym $mod+Shift+Alt+Left move workspace to left
+bindsym $mod+Shift+Alt+Right move workspace to right
+bindsym $mod+Shift+Alt+Up move workspace to up
+bindsym $mod+Shift+Alt+Down move workspace to down
 
 # Move to previous and next workspace
-bindsym $mod+Tab workspace next
-bindsym $mod+Shift+Tab workspace prev
+bindsym $mod+Tab workspace next_on_output
+bindsym $mod+Shift+Tab workspace prev_on_output
+# With gestures
+bindgesture swipe:3:left workspace next_on_output
+bindgesture swipe:3:right workspace prev_on_output
 
 # Move focused window to previous and next workspace
-bindsym $mod+Alt+Tab move workspace next
-bindsym $mod+Alt+Shift+Tab move workspace prev
+bindsym $mod+Alt+Tab move workspace next_on_output
+bindsym $mod+Alt+Shift+Tab move workspace prev_on_output
