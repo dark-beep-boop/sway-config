@@ -28,7 +28,7 @@ assign [class=Mattermost] 7
 for_window [app_id=firefox title=".*Microsoft Teams — Mozilla Firefox"] move window to workspace 7, focus
 
 # Notes workspace windows
-for_window [class=obsidian] move window to workspace 8, focus
+assign [app_id=obsidian] 8
 
 # Organization workspace windows
 for_window [app_id=firefox title=".*Nirvana — Mozilla Firefox"] move window to workspace 9, focus
