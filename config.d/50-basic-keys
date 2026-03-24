@@ -31,3 +31,9 @@ bindsym $mod+Shift+f exec $file_explorer
 
 # Open calculator
 bindsym $mod+Shift+z exec $calculator
+
+# Open mail
+bindsym $mod+Shift+m exec $mail
+
+# Open file explorer
+bindsym $mod+Shift+v workspace 4, exec $internet_explorer

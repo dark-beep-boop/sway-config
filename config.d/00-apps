@@ -1,0 +1,13 @@
+### Common applications
+
+set $calculator qalculate-gtk
+set $file_explorer thunar 
+set $internet_explorer firefox 
+set $mail proton-mail
+set $menu fuzzel
+set $power_menu ~/.local/bin/power-menu
+set $lock ~/.local/bin/lock
+set $term kitty
+set $scratch_term kitty --class scratch
+
+

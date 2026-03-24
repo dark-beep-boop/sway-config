@@ -12,13 +12,12 @@
 assign [app_id="Tor Browser"] 4
 
 # Media workspace windows
-assign [class=Spotify] 5
-for_window [class=Spotify] move window to workspace 5
-for_window [app_id=firefox title="Podimo Player — Mozilla Firefox"] move window to workspace 5
+assign [app_id=spotify] 5
+for_window [app_id=firefox title=".*Podimo Player — Mozilla Firefox"] move window to workspace 5, focus
 assign [app_id=mpv] 5
 
 # Mail workspace windows
-for_window [app_id=firefox title="Mail - .* - Outlook — Mozilla Firefox"] move window to workspace 6
+for_window [app_id=firefox title=".*Outlook — Mozilla Firefox"] move window to workspace 6, focus
 assign [class="Proton Mail"] 6
 
 # Chat workspace windows
@@ -26,24 +25,26 @@ assign [app_id=org.telegram.desktop] 7
 assign [class=discord] 7
 assign [app_id=Slack] 7
 assign [class="Mattermost"] 7
-for_window [app_id=firefox title="Chat .* Microsoft Teams — Mozilla Firefox"] move window to workspace 7
+for_window [app_id=firefox title=".*Microsoft Teams — Mozilla Firefox"] move window to workspace 7, focus
 
 # Notes workspace windows
-for_window [class=obsidian] move window to workspace 8
+for_window [class=obsidian] move window to workspace 8, focus
 
 # Organization workspace windows
-for_window [app_id=firefox title="Nirvana — Mozilla Firefox"] move window to workspace 9
+for_window [app_id=firefox title=".*Nirvana — Mozilla Firefox"] move window to workspace 9, focus
 
 # Scratchpad windows
 for_window [app_id=scratch] move window to scratchpad, resize set 900 540, move position center
-for_window [app_id=network] move window to scratchpad, resize set 900 600, move position center
+for_window [app_id=network] move window to scratchpad, resize set 900 600, move position centes
 for_window [class=Bitwarden] move window to scratchpad, resize set 1000 600, move position center, sticky enable
+for_window [app_id=thunar] move window to scratchpad, resize set 1000 600, move position center, sticky enable
 for_window [app_id=protonvpn-app] move window to scratchpad, move position center
 
 ## Window default mode
 # Floating windows
 for_window [window_role="pop-up"] floating enable
 for_window [window_role="task_dialog"] floating enable
+for_window [window_type="dialog"] floating enable
 for_window [app_id=float] floating enable
 for_window [app_id=firefox title="Password Required"] floating enable
 for_window [app_id=firefox title="Firefox . Sharing Indicator"] floating enable, move position top
@@ -51,7 +52,6 @@ for_window [app_id=firefox title="Extension: \(Bitwarden Password Manager\) - Bi
 for_window [class=zoom] floating enable
 for_window [app_id=veracrypt] floating enable
 for_window [app_id=ch.proton.bridge-gui] floating enable
-for_window [app_id=thunar] floating enable
 for_window [app_id=qalculate-gtk] floating enable
 for_window [app_id=lxqt-openssh-askpass] floating enable
 for_window [class=ghidra-Ghidra] floating enable
