@@ -8,7 +8,6 @@
 # Code workspace windows
 
 # Internet workspace windows
-#for_window [app_id=firefox, ] move window to workspace 4
 assign [app_id="Tor Browser"] 4
 
 # Media workspace windows
@@ -38,6 +37,7 @@ for_window [app_id=scratch] move window to scratchpad, resize set 900 540, move 
 for_window [app_id=network] move window to scratchpad, resize set 900 600, move position centes
 for_window [class=Bitwarden] move window to scratchpad, resize set 1000 600, move position center, sticky enable
 for_window [app_id=thunar] move window to scratchpad, resize set 1000 600, move position center, sticky enable
+for_window [app_id=qalculate-gtk] move window to scratchpad, resize set 600 400, move position center, sticky enable
 for_window [app_id=protonvpn-app] move window to scratchpad, move position center
 
 ## Window default mode
@@ -51,8 +51,6 @@ for_window [app_id=firefox title="Firefox . Sharing Indicator"] floating enable,
 for_window [app_id=firefox title="Extension: \(Bitwarden Password Manager\) - Bitwarden — Mozilla Firefox"] floating enable
 for_window [class=zoom] floating enable
 for_window [app_id=veracrypt] floating enable
-for_window [app_id=ch.proton.bridge-gui] floating enable
-for_window [app_id=qalculate-gtk] floating enable
 for_window [app_id=lxqt-openssh-askpass] floating enable
 for_window [class=ghidra-Ghidra] floating enable
 
