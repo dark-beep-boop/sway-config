@@ -24,7 +24,7 @@ assign [class="Proton Mail"] 6
 assign [app_id=org.telegram.desktop] 7
 assign [class=discord] 7
 assign [app_id=Slack] 7
-assign [class="Mattermost"] 7
+assign [class=Mattermost] 7
 for_window [app_id=firefox title=".*Microsoft Teams — Mozilla Firefox"] move window to workspace 7, focus
 
 # Notes workspace windows
