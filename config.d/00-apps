@@ -9,5 +9,5 @@ set $power_menu ~/.local/bin/power-menu
 set $lock ~/.local/bin/lock
 set $term kitty
 set $scratch_term kitty --class scratch
-
+set $screenshot /home/zus/.local/bin/screenshot /home/zus/Pictures/screenshot
 
