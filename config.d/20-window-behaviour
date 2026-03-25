@@ -53,6 +53,8 @@ for_window [class=zoom] floating enable
 for_window [app_id=veracrypt] floating enable
 for_window [app_id=lxqt-openssh-askpass] floating enable
 for_window [class=ghidra-Ghidra] floating enable
+for_window [app_id=blueman-manager] floating enable
+for_window [app_id=nm-connection-editor] floating enable
 
 ## Window focus
 for_window [class=".*"] focus
