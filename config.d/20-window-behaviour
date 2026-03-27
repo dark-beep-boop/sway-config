@@ -25,7 +25,7 @@ assign [class=discord] 7
 assign [app_id=Slack] 7
 assign [class=Mattermost] 7
 for_window [app_id=firefox title=".*Microsoft Teams — Mozilla Firefox"] move window to workspace 7, focus
-for_window [app_id=firefox title=".*Whatsapp — Mozilla Firefox"] move window to workspace 7, focus
+for_window [app_id=firefox title=".*WhatsApp — Mozilla Firefox"] move window to workspace 7, focus
 
 # Notes workspace windows
 assign [app_id=obsidian] 8
