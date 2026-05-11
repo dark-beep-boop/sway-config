@@ -18,3 +18,15 @@ client.background       $base07
 
 # Font
 font DejaVu Sans Mono 10
+
+# Window blur
+blur enable
+blur_xray disable
+blur_passes 1
+blur_radius 5
+
+# Corners
+corner_radius 5
+
+# Window shadow
+shadows enable
