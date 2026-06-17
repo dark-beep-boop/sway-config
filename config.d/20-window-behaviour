@@ -10,7 +10,6 @@ exec_always /home/zus/.local/bin/autoset_window
 # Code workspace windows
 
 # Internet workspace windows
-assign [app_id="Tor Browser"] 4
 
 # Media workspace windows
 for_window [workspace=5] layout tabbed
@@ -25,7 +24,7 @@ assign [app_id="Proton Mail"] 6
 for_window [workspace=7] layout tabbed
 assign [app_id=org.telegram.desktop] 7
 assign [class=discord] 7
-assign [app_id=Slack] 7
+assign [app_id=slack] 7
 assign [class=Mattermost] 7
 
 # Notes workspace windows
