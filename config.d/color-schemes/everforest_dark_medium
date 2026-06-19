@@ -1,0 +1,30 @@
+## Everforest Dark Medium
+# Author: Sainhe Park
+
+set $bg_dim       #232a2e
+set $bg0          #2d353b
+set $bg1          #343f44
+set $bg2          #3d484d
+set $bg3          #475258
+set $bg4          #4f585e
+set $bg5          #56635f
+set $bg_visual    #543a48
+set $bg_red       #514045
+set $bg_yellow    #4d4c43
+set $bg_green     #425047
+set $bg_blue      #3a515d
+set $bg_purple    #4a444e
+set $fg           #d3c6aa
+set $red          #e67e80
+set $orange       #e69875
+set $yellow       #dbbc7f
+set $green        #a7c080
+set $aqua         #83c092
+set $blue         #7fbbb3
+set $purple       #d699b6
+set $grey0        #7a8478
+set $grey1        #859289
+set $grey2        #9da9a0
+set $statusline1  #a7c080
+set $statusline2  #d3c6aa
+set $statusline3  #e67e80

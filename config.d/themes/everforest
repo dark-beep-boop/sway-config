@@ -1,0 +1,10 @@
+# Colors
+# class                 border      backgr.     text    indic.        child_border
+client.focused          $bg1        $bg1        $fg     $statusline1  $bg4
+client.focused_inactive $bg0        $bg0        $grey2  $statusline2  $bg4
+client.unfocused        $bg_dim     $bg_dim     $grey2  $statusline3  $bg4
+client.urgent           $bg_yellow  $bg_yellow  $yellow $red          $bg4
+client.placeholder      $bg5        $bg5        $grey2  $statusline3  $bg4
+
+# class                 value
+client.background       $bg0

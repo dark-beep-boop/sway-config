@@ -2,19 +2,9 @@
 
 # Borders
 default_border pixel 0
-default_floating_border pixel 2
+default_floating_border pixel 0
 gaps inner 10
 gaps outer 0
-
-# Colors
-# class                 border    backgr.   text      indic.    child_border
-client.focused          $base0D   $base0D   $base00   $base0D   $base0D
-client.focused_inactive $base01   $base01   $base05   $base01   $base01
-client.unfocused        $base01   $base00   $base05   $base01   $base01
-client.urgent           $base08   $base08   $base00   $base08   $base08
-client.placeholder      $base00   $base00   $base05   $base00   $base01
-# class                 value
-client.background       $base07
 
 # Font
 font DejaVu Sans Mono 10
@@ -22,7 +12,7 @@ font DejaVu Sans Mono 10
 # Window blur
 blur enable
 blur_xray disable
-blur_passes 1
+blur_passes 2
 blur_radius 5
 
 # Corners
@@ -33,3 +23,6 @@ shadows enable
 
 # Dim unfocused windows
 default_dim_inactive 0.3
+
+include /home/zus/.config/sway/config.d/color-schemes/everforest_dark_hard
+include /home/zus/.config/sway/config.d/themes/everforest
