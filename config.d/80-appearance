@@ -22,7 +22,7 @@ corner_radius 10
 shadows enable
 
 # Dim unfocused windows
-default_dim_inactive 0.3
+default_dim_inactive 0.2
 
 include /home/zus/.config/sway/config.d/color-schemes/everforest_dark_hard
 include /home/zus/.config/sway/config.d/themes/everforest
