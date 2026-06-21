@@ -7,4 +7,4 @@ exec_always kanshictl reload
 # Default background
 output * background /home/zus/.local/share/backgrounds/default fill
 # Set random outputs
-exec_always /home/zus/.local/bin/set-backgrounds
+exec_always /home/zus/.local/bin/set-backgrounds --background_dir /home/zus/.local/share/backgrounds/wall
